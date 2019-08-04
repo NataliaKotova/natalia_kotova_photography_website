@@ -97,12 +97,14 @@ li:hover {
 
 .menu {
     text-align: centre;
+    text-transform:uppercase;
 }
 
 .menu li {
     padding-right:30px;
     font-family:'Courier New', Courier, monospace;
     font-size: 0.8em;
+    text-transform:uppercase;
 }
 
 .flex-container {
@@ -213,6 +215,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
     font-size:80%;
 	padding-top:5%
+  }
+
+  .w3-row-padding img {
+    max-width: 100%;
   }
 
   
