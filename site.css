@@ -1,0 +1,218 @@
+/*
+CSS styles 
+Natalia Kotova Photography Website
+Created by Natalia Kotova, student ID: 21901410
+Date: 28.05.2019
+*/
+
+.social-links {
+    list-style-type:none;
+	width:80%;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+.social-links li {
+    display:inline-block;
+	
+}
+
+.sendtome {
+	list-style-type: none;
+	text-align: center;
+	float: right;
+}
+.sendtome img {
+	width:40px;
+}
+.contactinfo ul {
+	display: inline-block;
+}
+
+.heading {
+    text-align: center;
+	
+}
+.homelink {
+  text-decoration:none;
+}
+.menu {
+    list-style-type:none;
+}
+.active {
+    color: black;
+	text-decoration: none;
+}
+
+.inactive {
+  color: gray;
+  text-decoration:none;
+}
+li:hover {
+	color: black;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.heading-one {
+
+	margin: 0em;
+	color: black;
+	text-align: center;
+	font-family:'Courier New', Courier, monospace;
+	text-transform:uppercase;
+	font-size:2em;
+	font-weight:normal;
+}
+
+.heading-two {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+	margin: 0em;
+	font-weight: normal;
+	font-size:1em;
+	padding-bottom: 2em;
+}
+
+.logo img {
+	text-align: center;
+	position:relative;
+	align-items: center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.heading img {
+	image-rendering: pixelated;
+	/*image-rendering: auto;
+	image-rendering: crisp-edges;*/
+	size: relative;
+	
+}
+
+.menu {
+    text-align: centre;
+}
+
+.menu li {
+    padding-right:30px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 0.8em;
+}
+
+.flex-container {
+    flex-direction:row;
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-content: center;
+    flex-flow: row wrap; 
+    margin-left:15.5%;
+    margin-right:15.5%;
+  }
+
+.flex-item {
+    order: 1;  
+    width: 23%;
+    margin: 10px;
+    order: 1;
+    border-radius: 3px;
+    padding: 0 1px 1px 1px;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+ .flex-item img {
+      width:100%;
+      height:auto;
+  }
+
+  
+.flex-item2 {
+	text-align: center;
+	padding-top:1%;
+	}
+.img-v {
+	width: 30%;
+}
+.img-h {
+	width: 60.5%;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+.title {
+	text-align: center;
+	padding-top:1em;
+	font-family:'Courier New', Courier, monospace;
+	color:black;
+	text-transform:uppercase;
+	font-size:150%;
+}
+ 
+  body {
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    width: 94%;
+    flex: 1 0 auto;
+  }
+  
+  .container {
+    margin-top: 0;
+    padding-bottom:50px;
+  }
+  
+  .aboutme {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:90%;
+    /*text-align: left;*/
+    margin-left:20%;
+    margin-right:20%;
+  }
+  
+  .aboutme-block {
+	  padding-top: 1%;
+  }
+  
+  .aboutme img {
+	float: left;
+	width:60%;
+	margin-right:-40px;
+  }
+  
+  .aboutme-image {
+	float: left;
+  }
+  
+  .text {
+    text-indent:2em;
+	padding: 5 px;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1em;
+  }
+  
+  .footer {
+    flex-shrink: 0;
+    text-align:center;
+    background-color:white;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:80%;
+	padding-top:5%
+  }
+
+  

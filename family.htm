@@ -1,0 +1,81 @@
+<!--
+Website: Natalia Kotova Photography
+"Gallery" page 
+Created by Natalia Kotova
+ID: 21901410
+Date: 28.05.2019
+Status: completed
+-->
+<!DOCTYPE html>
+<!--HTML lang attribute is used to identify the language of text content on the web-->
+<html lang="en">
+	<head>
+		<!--Declare the encoding of HTML file-->
+		<meta charset="utf-8"/>
+		<!--Title appears when we hover over the browser tabs-->
+		<title>Natalia Kotova Photography</title>
+		<!--Link to the document with CSS styles for website-->
+		<link rel="stylesheet" href="site.css" />
+		<!--This is HTML code for favicon to identify website among all opened tabs in browser-->
+		<link rel="icon" href="favicon.jpg" type="image/jpg" sizes="16x16">
+	</head>
+	<!--Body-->
+	<body>
+    <div class="wrapper">
+		<!--Contact info with icons and links-->
+        <div class="contactinfo">
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.instagram.com"><img src="assets/instagram-icon.jpg" /></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="assets/facebook-icon.jpg" /></a>
+                </li>
+            </ul>
+			<!--Icon that opens up email form on click-->
+            <ul class="sendtome">
+                <li class="right">
+                    <a href="mailto:natalia.v.kotova@gmail.com"><img src="assets/envelope-icon.jpg"></a>
+                </li>
+            </ul>
+        </div>
+		<!--Logo-->
+		<div class="heading">
+			<a href = "index.htm" class = "homelink">
+				<div class="logo">
+					<img src = "assets/logo-part.jpg">
+				</div>
+				<div class = "logo-name">
+					<h3 class = "heading-one">Natalia Kotova</h3>
+					<h2 class = "heading-two">Photography</h2>
+				</div>
+			</a>
+				<!--Menu: Gallery, Info, Blog. Links to pages and blog-->
+				<ul class="menu">
+					<a href="index.htm"><li class="gallery active">Gallery</li></a>
+					<a href="info.htm"><li class="about inactive">Info</li></a>
+					<a href="https://nataliakotovablog.wordpress.com/"><li class="home inactive">Blog</li></a>
+				</ul>
+				<!--Submenu: Kids, Family, Portraits-->
+				<ul class="menu">
+					<a href = "kids.htm"  class = "inactive"><li>Kids</li></a>
+					<a href = "family.htm" class = "active"><li>Family</li></a>
+					<a href = "portraits.htm" class = "inactive"><li>Portraits</li></a>
+				</ul>
+		</div>
+		
+		<!--Gallery: family with images that link to photo session-->
+		<div class = "flex-item2">
+		<!--first row, two vertical images-->
+			<div>
+				<a href = "lena&alex.htm"><img class = "img-h" src="images/family/family-lena&alex.jpg"/></a>
+			</div>
+		</div>	
+	</div>		
+		<!--Footer-->
+		<div class="footer">
+			<p>© Copyright Natalia Kotova Photography</p>
+			<p>Site by Natalia Kotova</p>
+		</div>
+	</body>
+</html>
